@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BlockingController {
 
+    @Autowired
     private final BlockingService blockingService;
 
-    @Autowired
     public BlockingController(BlockingService blockingService){
         this.blockingService = blockingService;
     }

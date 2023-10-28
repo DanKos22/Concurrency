@@ -12,9 +12,9 @@ import java.util.concurrent.CompletableFuture;
 @RestController
 public class FeignController {
 
+    @Autowired
     private final FeignService feignService;
 
-    @Autowired
     public FeignController(FeignService feignService) {
         this.feignService = feignService;
     }
