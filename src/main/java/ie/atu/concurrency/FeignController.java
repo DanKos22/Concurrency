@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
-
+/*
 @RestController
 public class FeignController {
 
@@ -36,4 +36,4 @@ public class FeignController {
 
         return "Total execution time: " + (endTime -startTime) + "ms";
     }
-}
+}*/
